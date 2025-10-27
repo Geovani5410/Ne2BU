@@ -1,0 +1,405 @@
+[0.181s] [34mcolcon[0m [1;30mDEBUG[0m [32mCommand line arguments: ['/usr/bin/colcon', 'build'][0m
+[0.181s] [34mcolcon[0m [1;30mDEBUG[0m [32mParsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=16, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7bd3ddd4ca00>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7bd3ddeca2c0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7bd3ddeca2c0>>)[0m
+[0.527s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(colcon_meta) check parameters
+[0.527s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(recursive) check parameters
+[0.527s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(ignore) check parameters
+[0.527s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(path) check parameters
+[0.527s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(colcon_meta) discover
+[0.527s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(recursive) discover
+[0.527s] [34mcolcon.colcon_core.package_discovery[0m [1;30mINFO[0m Crawling recursively for packages in '/home/geovani/Ne2BU/src'
+[0.527s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.527s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'ignore'
+[0.528s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'ignore_ament_install'
+[0.528s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['colcon_pkg']
+[0.528s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'colcon_pkg'
+[0.528s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['colcon_meta']
+[0.528s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'colcon_meta'
+[0.528s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['ros']
+[0.528s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'ros'
+[0.546s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['cmake', 'python']
+[0.546s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'cmake'
+[0.546s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'python'
+[0.546s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['python_setup_py']
+[0.546s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'python_setup_py'
+[0.547s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.547s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(build) by extension 'ignore'
+[0.547s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(build) ignored
+[0.547s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(conversation_history) by extensions ['ignore', 'ignore_ament_install']
+[0.547s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(conversation_history) by extension 'ignore'
+[0.547s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(conversation_history) by extension 'ignore_ament_install'
+[0.547s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(conversation_history) by extensions ['colcon_pkg']
+[0.547s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(conversation_history) by extension 'colcon_pkg'
+[0.547s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(conversation_history) by extensions ['colcon_meta']
+[0.547s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(conversation_history) by extension 'colcon_meta'
+[0.547s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(conversation_history) by extensions ['ros']
+[0.547s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(conversation_history) by extension 'ros'
+[0.547s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(conversation_history) by extensions ['cmake', 'python']
+[0.547s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(conversation_history) by extension 'cmake'
+[0.547s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(conversation_history) by extension 'python'
+[0.548s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(conversation_history) by extensions ['python_setup_py']
+[0.548s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(conversation_history) by extension 'python_setup_py'
+[0.548s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.548s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(install) by extension 'ignore'
+[0.548s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(install) ignored
+[0.548s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.548s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(log) by extension 'ignore'
+[0.548s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(log) ignored
+[0.548s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(main) by extensions ['ignore', 'ignore_ament_install']
+[0.548s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(main) by extension 'ignore'
+[0.548s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(main) by extension 'ignore_ament_install'
+[0.548s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(main) by extensions ['colcon_pkg']
+[0.548s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(main) by extension 'colcon_pkg'
+[0.548s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(main) by extensions ['colcon_meta']
+[0.549s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(main) by extension 'colcon_meta'
+[0.549s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(main) by extensions ['ros']
+[0.549s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(main) by extension 'ros'
+[0.552s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'main' with type 'ros.ament_python' and name 'main'[0m
+[0.553s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(micro_ros_setup) by extensions ['ignore', 'ignore_ament_install']
+[0.553s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(micro_ros_setup) by extension 'ignore'
+[0.553s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(micro_ros_setup) by extension 'ignore_ament_install'
+[0.553s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(micro_ros_setup) by extensions ['colcon_pkg']
+[0.553s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(micro_ros_setup) by extension 'colcon_pkg'
+[0.553s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(micro_ros_setup) by extensions ['colcon_meta']
+[0.553s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(micro_ros_setup) by extension 'colcon_meta'
+[0.553s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(micro_ros_setup) by extensions ['ros']
+[0.553s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(micro_ros_setup) by extension 'ros'
+[0.555s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'micro_ros_setup' with type 'ros.ament_cmake' and name 'micro_ros_setup'[0m
+[0.555s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(uros) by extensions ['ignore', 'ignore_ament_install']
+[0.555s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(uros) by extension 'ignore'
+[0.555s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(uros) by extension 'ignore_ament_install'
+[0.555s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(uros) by extensions ['colcon_pkg']
+[0.555s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(uros) by extension 'colcon_pkg'
+[0.555s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(uros) by extensions ['colcon_meta']
+[0.555s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(uros) by extension 'colcon_meta'
+[0.555s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(uros) by extensions ['ros']
+[0.555s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(uros) by extension 'ros'
+[0.555s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(uros) by extensions ['cmake', 'python']
+[0.555s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(uros) by extension 'cmake'
+[0.555s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(uros) by extension 'python'
+[0.556s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(uros) by extensions ['python_setup_py']
+[0.556s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(uros) by extension 'python_setup_py'
+[0.556s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(uros/micro-ROS-Agent) by extensions ['ignore', 'ignore_ament_install']
+[0.556s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(uros/micro-ROS-Agent) by extension 'ignore'
+[0.556s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(uros/micro-ROS-Agent) by extension 'ignore_ament_install'
+[0.556s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(uros/micro-ROS-Agent) by extensions ['colcon_pkg']
+[0.556s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(uros/micro-ROS-Agent) by extension 'colcon_pkg'
+[0.556s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(uros/micro-ROS-Agent) by extensions ['colcon_meta']
+[0.556s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(uros/micro-ROS-Agent) by extension 'colcon_meta'
+[0.556s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(uros/micro-ROS-Agent) by extensions ['ros']
+[0.556s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(uros/micro-ROS-Agent) by extension 'ros'
+[0.556s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(uros/micro-ROS-Agent) by extensions ['cmake', 'python']
+[0.556s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(uros/micro-ROS-Agent) by extension 'cmake'
+[0.556s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(uros/micro-ROS-Agent) by extension 'python'
+[0.557s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(uros/micro-ROS-Agent) by extensions ['python_setup_py']
+[0.557s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(uros/micro-ROS-Agent) by extension 'python_setup_py'
+[0.557s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(uros/micro-ROS-Agent/micro_ros_agent) by extensions ['ignore', 'ignore_ament_install']
+[0.557s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(uros/micro-ROS-Agent/micro_ros_agent) by extension 'ignore'
+[0.557s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(uros/micro-ROS-Agent/micro_ros_agent) by extension 'ignore_ament_install'
+[0.557s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(uros/micro-ROS-Agent/micro_ros_agent) by extensions ['colcon_pkg']
+[0.557s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(uros/micro-ROS-Agent/micro_ros_agent) by extension 'colcon_pkg'
+[0.557s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(uros/micro-ROS-Agent/micro_ros_agent) by extensions ['colcon_meta']
+[0.557s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(uros/micro-ROS-Agent/micro_ros_agent) by extension 'colcon_meta'
+[0.557s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(uros/micro-ROS-Agent/micro_ros_agent) by extensions ['ros']
+[0.557s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(uros/micro-ROS-Agent/micro_ros_agent) by extension 'ros'
+[0.559s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'uros/micro-ROS-Agent/micro_ros_agent' with type 'ros.ament_cmake' and name 'micro_ros_agent'[0m
+[0.559s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(uros/micro-ROS-Agent/snap) by extensions ['ignore', 'ignore_ament_install']
+[0.559s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(uros/micro-ROS-Agent/snap) by extension 'ignore'
+[0.559s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(uros/micro-ROS-Agent/snap) by extension 'ignore_ament_install'
+[0.559s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(uros/micro-ROS-Agent/snap) by extensions ['colcon_pkg']
+[0.559s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(uros/micro-ROS-Agent/snap) by extension 'colcon_pkg'
+[0.559s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(uros/micro-ROS-Agent/snap) by extensions ['colcon_meta']
+[0.559s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(uros/micro-ROS-Agent/snap) by extension 'colcon_meta'
+[0.559s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(uros/micro-ROS-Agent/snap) by extensions ['ros']
+[0.560s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(uros/micro-ROS-Agent/snap) by extension 'ros'
+[0.560s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(uros/micro-ROS-Agent/snap) by extensions ['cmake', 'python']
+[0.560s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(uros/micro-ROS-Agent/snap) by extension 'cmake'
+[0.560s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(uros/micro-ROS-Agent/snap) by extension 'python'
+[0.560s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(uros/micro-ROS-Agent/snap) by extensions ['python_setup_py']
+[0.560s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(uros/micro-ROS-Agent/snap) by extension 'python_setup_py'
+[0.560s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(uros/micro-ROS-Agent/snap/hooks) by extensions ['ignore', 'ignore_ament_install']
+[0.560s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(uros/micro-ROS-Agent/snap/hooks) by extension 'ignore'
+[0.560s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(uros/micro-ROS-Agent/snap/hooks) by extension 'ignore_ament_install'
+[0.560s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(uros/micro-ROS-Agent/snap/hooks) by extensions ['colcon_pkg']
+[0.560s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(uros/micro-ROS-Agent/snap/hooks) by extension 'colcon_pkg'
+[0.560s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(uros/micro-ROS-Agent/snap/hooks) by extensions ['colcon_meta']
+[0.560s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(uros/micro-ROS-Agent/snap/hooks) by extension 'colcon_meta'
+[0.560s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(uros/micro-ROS-Agent/snap/hooks) by extensions ['ros']
+[0.560s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(uros/micro-ROS-Agent/snap/hooks) by extension 'ros'
+[0.561s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(uros/micro-ROS-Agent/snap/hooks) by extensions ['cmake', 'python']
+[0.561s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(uros/micro-ROS-Agent/snap/hooks) by extension 'cmake'
+[0.561s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(uros/micro-ROS-Agent/snap/hooks) by extension 'python'
+[0.561s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(uros/micro-ROS-Agent/snap/hooks) by extensions ['python_setup_py']
+[0.561s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(uros/micro-ROS-Agent/snap/hooks) by extension 'python_setup_py'
+[0.561s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(uros/micro-ROS-Agent/snap/local) by extensions ['ignore', 'ignore_ament_install']
+[0.561s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(uros/micro-ROS-Agent/snap/local) by extension 'ignore'
+[0.561s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(uros/micro-ROS-Agent/snap/local) by extension 'ignore_ament_install'
+[0.561s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(uros/micro-ROS-Agent/snap/local) by extensions ['colcon_pkg']
+[0.561s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(uros/micro-ROS-Agent/snap/local) by extension 'colcon_pkg'
+[0.561s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(uros/micro-ROS-Agent/snap/local) by extensions ['colcon_meta']
+[0.561s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(uros/micro-ROS-Agent/snap/local) by extension 'colcon_meta'
+[0.561s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(uros/micro-ROS-Agent/snap/local) by extensions ['ros']
+[0.561s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(uros/micro-ROS-Agent/snap/local) by extension 'ros'
+[0.561s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(uros/micro-ROS-Agent/snap/local) by extensions ['cmake', 'python']
+[0.561s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(uros/micro-ROS-Agent/snap/local) by extension 'cmake'
+[0.562s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(uros/micro-ROS-Agent/snap/local) by extension 'python'
+[0.562s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(uros/micro-ROS-Agent/snap/local) by extensions ['python_setup_py']
+[0.562s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(uros/micro-ROS-Agent/snap/local) by extension 'python_setup_py'
+[0.562s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(uros/micro_ros_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.562s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(uros/micro_ros_msgs) by extension 'ignore'
+[0.562s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(uros/micro_ros_msgs) by extension 'ignore_ament_install'
+[0.562s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(uros/micro_ros_msgs) by extensions ['colcon_pkg']
+[0.562s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(uros/micro_ros_msgs) by extension 'colcon_pkg'
+[0.562s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(uros/micro_ros_msgs) by extensions ['colcon_meta']
+[0.562s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(uros/micro_ros_msgs) by extension 'colcon_meta'
+[0.562s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(uros/micro_ros_msgs) by extensions ['ros']
+[0.562s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(uros/micro_ros_msgs) by extension 'ros'
+[0.563s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'uros/micro_ros_msgs' with type 'ros.ament_cmake' and name 'micro_ros_msgs'[0m
+[0.563s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(recursive) using defaults
+[0.564s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(ignore) discover
+[0.564s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(ignore) using defaults
+[0.564s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(path) discover
+[0.564s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(path) using defaults
+[0.591s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(prefix_path) check parameters
+[0.591s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(prefix_path) discover
+[0.595s] [34mcolcon.colcon_installed_package_information.package_discovery[0m [1;30mDEBUG[0m [32mFound 4 installed packages in /home/geovani/Ne2BU/src/install[0m
+[0.597s] [34mcolcon.colcon_installed_package_information.package_discovery[0m [1;30mDEBUG[0m [32mFound 271 installed packages in /opt/ros/humble[0m
+[0.599s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(prefix_path) using defaults
+[0.662s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'main' build argument 'cmake_args' from command line to 'None'
+[0.662s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'main' build argument 'cmake_target' from command line to 'None'
+[0.662s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'main' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.662s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'main' build argument 'cmake_clean_cache' from command line to 'False'
+[0.662s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'main' build argument 'cmake_clean_first' from command line to 'False'
+[0.662s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'main' build argument 'cmake_force_configure' from command line to 'False'
+[0.662s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'main' build argument 'ament_cmake_args' from command line to 'None'
+[0.662s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'main' build argument 'catkin_cmake_args' from command line to 'None'
+[0.662s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'main' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.662s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'main' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/geovani/Ne2BU/src/build/main', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/geovani/Ne2BU/src/install/main', 'merge_install': False, 'path': '/home/geovani/Ne2BU/src/main', 'symlink_install': False, 'test_result_base': None}[0m
+[0.663s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'micro_ros_msgs' build argument 'cmake_args' from command line to 'None'
+[0.663s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'micro_ros_msgs' build argument 'cmake_target' from command line to 'None'
+[0.663s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'micro_ros_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.663s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'micro_ros_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.663s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'micro_ros_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.663s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'micro_ros_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.663s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'micro_ros_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.663s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'micro_ros_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.663s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'micro_ros_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.663s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'micro_ros_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/geovani/Ne2BU/src/build/micro_ros_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/geovani/Ne2BU/src/install/micro_ros_msgs', 'merge_install': False, 'path': '/home/geovani/Ne2BU/src/uros/micro_ros_msgs', 'symlink_install': False, 'test_result_base': None}[0m
+[0.663s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'micro_ros_setup' build argument 'cmake_args' from command line to 'None'
+[0.663s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'micro_ros_setup' build argument 'cmake_target' from command line to 'None'
+[0.664s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'micro_ros_setup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.664s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'micro_ros_setup' build argument 'cmake_clean_cache' from command line to 'False'
+[0.664s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'micro_ros_setup' build argument 'cmake_clean_first' from command line to 'False'
+[0.664s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'micro_ros_setup' build argument 'cmake_force_configure' from command line to 'False'
+[0.664s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'micro_ros_setup' build argument 'ament_cmake_args' from command line to 'None'
+[0.664s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'micro_ros_setup' build argument 'catkin_cmake_args' from command line to 'None'
+[0.664s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'micro_ros_setup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.664s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'micro_ros_setup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/geovani/Ne2BU/src/build/micro_ros_setup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/geovani/Ne2BU/src/install/micro_ros_setup', 'merge_install': False, 'path': '/home/geovani/Ne2BU/src/micro_ros_setup', 'symlink_install': False, 'test_result_base': None}[0m
+[0.664s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'micro_ros_agent' build argument 'cmake_args' from command line to 'None'
+[0.664s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'micro_ros_agent' build argument 'cmake_target' from command line to 'None'
+[0.664s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'micro_ros_agent' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.664s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'micro_ros_agent' build argument 'cmake_clean_cache' from command line to 'False'
+[0.664s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'micro_ros_agent' build argument 'cmake_clean_first' from command line to 'False'
+[0.664s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'micro_ros_agent' build argument 'cmake_force_configure' from command line to 'False'
+[0.664s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'micro_ros_agent' build argument 'ament_cmake_args' from command line to 'None'
+[0.664s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'micro_ros_agent' build argument 'catkin_cmake_args' from command line to 'None'
+[0.664s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'micro_ros_agent' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.664s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'micro_ros_agent' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/geovani/Ne2BU/src/build/micro_ros_agent', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/geovani/Ne2BU/src/install/micro_ros_agent', 'merge_install': False, 'path': '/home/geovani/Ne2BU/src/uros/micro-ROS-Agent/micro_ros_agent', 'symlink_install': False, 'test_result_base': None}[0m
+[0.664s] [34mcolcon.colcon_core.executor[0m [1;30mINFO[0m Executing jobs using 'parallel' executor
+[0.666s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mrun_until_complete[0m
+[0.666s] [34mcolcon.colcon_ros.task.ament_cmake.build[0m [1;30mINFO[0m Building ROS package in '/home/geovani/Ne2BU/src/uros/micro_ros_msgs' with build type 'ament_cmake'
+[0.666s] [34mcolcon.colcon_cmake.task.cmake.build[0m [1;30mINFO[0m Building CMake package in '/home/geovani/Ne2BU/src/uros/micro_ros_msgs'
+[0.670s] [34mcolcon.colcon_core.plugin_system[0m [1;30mINFO[0m Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.670s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.670s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[0.675s] [34mcolcon.colcon_ros.task.ament_python.build[0m [1;30mINFO[0m Building ROS package in '/home/geovani/Ne2BU/src/main' with build type 'ament_python'
+[0.675s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('main', 'ament_prefix_path')
+[0.675s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/geovani/Ne2BU/src/install/main/share/main/hook/ament_prefix_path.ps1'
+[0.676s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/geovani/Ne2BU/src/install/main/share/main/hook/ament_prefix_path.dsv'
+[0.677s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/geovani/Ne2BU/src/install/main/share/main/hook/ament_prefix_path.sh'
+[0.678s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.678s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[0.682s] [34mcolcon.colcon_ros.task.ament_cmake.build[0m [1;30mINFO[0m Building ROS package in '/home/geovani/Ne2BU/src/micro_ros_setup' with build type 'ament_cmake'
+[0.682s] [34mcolcon.colcon_cmake.task.cmake.build[0m [1;30mINFO[0m Building CMake package in '/home/geovani/Ne2BU/src/micro_ros_setup'
+[0.682s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.682s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[0.692s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/geovani/Ne2BU/src/build/micro_ros_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/geovani/Ne2BU/src/install/main:/opt/ros/humble /usr/bin/cmake --build /home/geovani/Ne2BU/src/build/micro_ros_msgs -- -j16 -l16[0m
+[1.102s] [34mcolcon.colcon_core.task.python.build[0m [1;30mINFO[0m Building Python package in '/home/geovani/Ne2BU/src/main'
+[1.103s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.103s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[1.116s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/geovani/Ne2BU/src/build/micro_ros_setup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/geovani/Ne2BU/src/install/main:/opt/ros/humble /usr/bin/cmake --build /home/geovani/Ne2BU/src/build/micro_ros_setup -- -j16 -l16[0m
+[1.172s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/geovani/Ne2BU/src/build/micro_ros_setup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/geovani/Ne2BU/src/install/main:/opt/ros/humble /usr/bin/cmake --build /home/geovani/Ne2BU/src/build/micro_ros_setup -- -j16 -l16[0m
+[1.188s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/geovani/Ne2BU/src/build/micro_ros_setup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/geovani/Ne2BU/src/install/main:/opt/ros/humble /usr/bin/cmake --install /home/geovani/Ne2BU/src/build/micro_ros_setup[0m
+[1.216s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(micro_ros_setup)
+[1.217s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/geovani/Ne2BU/src/build/micro_ros_setup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/geovani/Ne2BU/src/install/main:/opt/ros/humble /usr/bin/cmake --install /home/geovani/Ne2BU/src/build/micro_ros_setup[0m
+[1.223s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/geovani/Ne2BU/src/install/micro_ros_setup' for CMake module files
+[1.224s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/geovani/Ne2BU/src/install/micro_ros_setup' for CMake config files
+[1.227s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('micro_ros_setup', 'cmake_prefix_path')
+[1.228s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/geovani/Ne2BU/src/install/micro_ros_setup/share/micro_ros_setup/hook/cmake_prefix_path.ps1'
+[1.228s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/geovani/Ne2BU/src/install/micro_ros_setup/share/micro_ros_setup/hook/cmake_prefix_path.dsv'
+[1.229s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/geovani/Ne2BU/src/install/micro_ros_setup/share/micro_ros_setup/hook/cmake_prefix_path.sh'
+[1.230s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/geovani/Ne2BU/src/install/micro_ros_setup/lib'
+[1.230s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/geovani/Ne2BU/src/install/micro_ros_setup/bin'
+[1.230s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/geovani/Ne2BU/src/install/micro_ros_setup/lib/pkgconfig/micro_ros_setup.pc'
+[1.231s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/geovani/Ne2BU/src/install/micro_ros_setup/lib/python3.10/site-packages'
+[1.231s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/geovani/Ne2BU/src/install/micro_ros_setup/bin'
+[1.232s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/geovani/Ne2BU/src/install/micro_ros_setup/share/micro_ros_setup/package.ps1'
+[1.233s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/geovani/Ne2BU/src/install/micro_ros_setup/share/micro_ros_setup/package.dsv'
+[1.234s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/geovani/Ne2BU/src/install/micro_ros_setup/share/micro_ros_setup/package.sh'
+[1.235s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/geovani/Ne2BU/src/install/micro_ros_setup/share/micro_ros_setup/package.bash'
+[1.236s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/geovani/Ne2BU/src/install/micro_ros_setup/share/micro_ros_setup/package.zsh'
+[1.237s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/geovani/Ne2BU/src/install/micro_ros_setup/share/colcon-core/packages/micro_ros_setup)
+[1.238s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(micro_ros_setup)
+[1.238s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/geovani/Ne2BU/src/install/micro_ros_setup' for CMake module files
+[1.239s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/geovani/Ne2BU/src/install/micro_ros_setup' for CMake config files
+[1.240s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('micro_ros_setup', 'cmake_prefix_path')
+[1.240s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/geovani/Ne2BU/src/install/micro_ros_setup/share/micro_ros_setup/hook/cmake_prefix_path.ps1'
+[1.240s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/geovani/Ne2BU/src/install/micro_ros_setup/share/micro_ros_setup/hook/cmake_prefix_path.dsv'
+[1.241s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/geovani/Ne2BU/src/install/micro_ros_setup/share/micro_ros_setup/hook/cmake_prefix_path.sh'
+[1.242s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/geovani/Ne2BU/src/install/micro_ros_setup/lib'
+[1.242s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/geovani/Ne2BU/src/install/micro_ros_setup/bin'
+[1.242s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/geovani/Ne2BU/src/install/micro_ros_setup/lib/pkgconfig/micro_ros_setup.pc'
+[1.242s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/geovani/Ne2BU/src/install/micro_ros_setup/lib/python3.10/site-packages'
+[1.243s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/geovani/Ne2BU/src/install/micro_ros_setup/bin'
+[1.243s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/geovani/Ne2BU/src/install/micro_ros_setup/share/micro_ros_setup/package.ps1'
+[1.244s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/geovani/Ne2BU/src/install/micro_ros_setup/share/micro_ros_setup/package.dsv'
+[1.245s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/geovani/Ne2BU/src/install/micro_ros_setup/share/micro_ros_setup/package.sh'
+[1.245s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/geovani/Ne2BU/src/install/micro_ros_setup/share/micro_ros_setup/package.bash'
+[1.246s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/geovani/Ne2BU/src/install/micro_ros_setup/share/micro_ros_setup/package.zsh'
+[1.246s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/geovani/Ne2BU/src/install/micro_ros_setup/share/colcon-core/packages/micro_ros_setup)
+[1.250s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/geovani/Ne2BU/src/build/micro_ros_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/geovani/Ne2BU/src/install/main:/opt/ros/humble /usr/bin/cmake --build /home/geovani/Ne2BU/src/build/micro_ros_msgs -- -j16 -l16[0m
+[1.252s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/geovani/Ne2BU/src/build/micro_ros_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/geovani/Ne2BU/src/install/main:/opt/ros/humble /usr/bin/cmake --install /home/geovani/Ne2BU/src/build/micro_ros_msgs[0m
+[1.346s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(micro_ros_msgs)
+[1.346s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/geovani/Ne2BU/src/build/micro_ros_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/geovani/Ne2BU/src/install/main:/opt/ros/humble /usr/bin/cmake --install /home/geovani/Ne2BU/src/build/micro_ros_msgs[0m
+[1.347s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/geovani/Ne2BU/src/install/micro_ros_msgs' for CMake module files
+[1.348s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/geovani/Ne2BU/src/install/micro_ros_msgs' for CMake config files
+[1.351s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('micro_ros_msgs', 'cmake_prefix_path')
+[1.351s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/geovani/Ne2BU/src/install/micro_ros_msgs/share/micro_ros_msgs/hook/cmake_prefix_path.ps1'
+[1.352s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/geovani/Ne2BU/src/install/micro_ros_msgs/share/micro_ros_msgs/hook/cmake_prefix_path.dsv'
+[1.352s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/geovani/Ne2BU/src/install/micro_ros_msgs/share/micro_ros_msgs/hook/cmake_prefix_path.sh'
+[1.353s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/geovani/Ne2BU/src/install/micro_ros_msgs/lib'
+[1.353s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('micro_ros_msgs', 'ld_library_path_lib')
+[1.354s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/geovani/Ne2BU/src/install/micro_ros_msgs/share/micro_ros_msgs/hook/ld_library_path_lib.ps1'
+[1.354s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/geovani/Ne2BU/src/install/micro_ros_msgs/share/micro_ros_msgs/hook/ld_library_path_lib.dsv'
+[1.355s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/geovani/Ne2BU/src/install/micro_ros_msgs/share/micro_ros_msgs/hook/ld_library_path_lib.sh'
+[1.355s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/geovani/Ne2BU/src/install/micro_ros_msgs/bin'
+[1.355s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/geovani/Ne2BU/src/install/micro_ros_msgs/lib/pkgconfig/micro_ros_msgs.pc'
+[1.356s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/geovani/Ne2BU/src/install/micro_ros_msgs/lib/python3.10/site-packages'
+[1.356s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/geovani/Ne2BU/src/install/micro_ros_msgs/bin'
+[1.357s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/geovani/Ne2BU/src/install/micro_ros_msgs/share/micro_ros_msgs/package.ps1'
+[1.357s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/geovani/Ne2BU/src/install/micro_ros_msgs/share/micro_ros_msgs/package.dsv'
+[1.358s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/geovani/Ne2BU/src/install/micro_ros_msgs/share/micro_ros_msgs/package.sh'
+[1.358s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/geovani/Ne2BU/src/install/micro_ros_msgs/share/micro_ros_msgs/package.bash'
+[1.359s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/geovani/Ne2BU/src/install/micro_ros_msgs/share/micro_ros_msgs/package.zsh'
+[1.359s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/geovani/Ne2BU/src/install/micro_ros_msgs/share/colcon-core/packages/micro_ros_msgs)
+[1.360s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(micro_ros_msgs)
+[1.360s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/geovani/Ne2BU/src/install/micro_ros_msgs' for CMake module files
+[1.361s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/geovani/Ne2BU/src/install/micro_ros_msgs' for CMake config files
+[1.362s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('micro_ros_msgs', 'cmake_prefix_path')
+[1.362s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/geovani/Ne2BU/src/install/micro_ros_msgs/share/micro_ros_msgs/hook/cmake_prefix_path.ps1'
+[1.363s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/geovani/Ne2BU/src/install/micro_ros_msgs/share/micro_ros_msgs/hook/cmake_prefix_path.dsv'
+[1.363s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/geovani/Ne2BU/src/install/micro_ros_msgs/share/micro_ros_msgs/hook/cmake_prefix_path.sh'
+[1.364s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/geovani/Ne2BU/src/install/micro_ros_msgs/lib'
+[1.364s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('micro_ros_msgs', 'ld_library_path_lib')
+[1.365s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/geovani/Ne2BU/src/install/micro_ros_msgs/share/micro_ros_msgs/hook/ld_library_path_lib.ps1'
+[1.365s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/geovani/Ne2BU/src/install/micro_ros_msgs/share/micro_ros_msgs/hook/ld_library_path_lib.dsv'
+[1.365s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/geovani/Ne2BU/src/install/micro_ros_msgs/share/micro_ros_msgs/hook/ld_library_path_lib.sh'
+[1.366s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/geovani/Ne2BU/src/install/micro_ros_msgs/bin'
+[1.366s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/geovani/Ne2BU/src/install/micro_ros_msgs/lib/pkgconfig/micro_ros_msgs.pc'
+[1.366s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/geovani/Ne2BU/src/install/micro_ros_msgs/lib/python3.10/site-packages'
+[1.367s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/geovani/Ne2BU/src/install/micro_ros_msgs/bin'
+[1.367s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/geovani/Ne2BU/src/install/micro_ros_msgs/share/micro_ros_msgs/package.ps1'
+[1.368s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/geovani/Ne2BU/src/install/micro_ros_msgs/share/micro_ros_msgs/package.dsv'
+[1.369s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/geovani/Ne2BU/src/install/micro_ros_msgs/share/micro_ros_msgs/package.sh'
+[1.370s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/geovani/Ne2BU/src/install/micro_ros_msgs/share/micro_ros_msgs/package.bash'
+[1.371s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/geovani/Ne2BU/src/install/micro_ros_msgs/share/micro_ros_msgs/package.zsh'
+[1.371s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/geovani/Ne2BU/src/install/micro_ros_msgs/share/colcon-core/packages/micro_ros_msgs)
+[1.372s] [34mcolcon.colcon_ros.task.ament_cmake.build[0m [1;30mINFO[0m Building ROS package in '/home/geovani/Ne2BU/src/uros/micro-ROS-Agent/micro_ros_agent' with build type 'ament_cmake'
+[1.372s] [34mcolcon.colcon_cmake.task.cmake.build[0m [1;30mINFO[0m Building CMake package in '/home/geovani/Ne2BU/src/uros/micro-ROS-Agent/micro_ros_agent'
+[1.373s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.373s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[1.388s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/geovani/Ne2BU/src/build/micro_ros_agent': CMAKE_PREFIX_PATH=/home/geovani/Ne2BU/src/install/micro_ros_msgs:/home/geovani/Ne2BU/src/install/micro_ros_setup:/home/geovani/Ne2BU/src/install/micro_ros_agent:/home/geovani/Ne2BU/src/install/main:/opt/ros/humble LD_LIBRARY_PATH=/home/geovani/Ne2BU/src/install/micro_ros_msgs/lib:/home/geovani/Ne2BU/src/install/micro_ros_agent/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/geovani/Ne2BU/src/build/micro_ros_agent -- -j16 -l16[0m
+[1.487s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/geovani/Ne2BU/src/build/micro_ros_agent' returned '0': CMAKE_PREFIX_PATH=/home/geovani/Ne2BU/src/install/micro_ros_msgs:/home/geovani/Ne2BU/src/install/micro_ros_setup:/home/geovani/Ne2BU/src/install/micro_ros_agent:/home/geovani/Ne2BU/src/install/main:/opt/ros/humble LD_LIBRARY_PATH=/home/geovani/Ne2BU/src/install/micro_ros_msgs/lib:/home/geovani/Ne2BU/src/install/micro_ros_agent/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/geovani/Ne2BU/src/build/micro_ros_agent -- -j16 -l16[0m
+[1.490s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/geovani/Ne2BU/src/build/micro_ros_agent': CMAKE_PREFIX_PATH=/home/geovani/Ne2BU/src/install/micro_ros_msgs:/home/geovani/Ne2BU/src/install/micro_ros_setup:/home/geovani/Ne2BU/src/install/micro_ros_agent:/home/geovani/Ne2BU/src/install/main:/opt/ros/humble LD_LIBRARY_PATH=/home/geovani/Ne2BU/src/install/micro_ros_msgs/lib:/home/geovani/Ne2BU/src/install/micro_ros_agent/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/geovani/Ne2BU/src/build/micro_ros_agent[0m
+[1.504s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(micro_ros_agent)
+[1.505s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/geovani/Ne2BU/src/install/micro_ros_agent' for CMake module files
+[1.506s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/geovani/Ne2BU/src/build/micro_ros_agent' returned '0': CMAKE_PREFIX_PATH=/home/geovani/Ne2BU/src/install/micro_ros_msgs:/home/geovani/Ne2BU/src/install/micro_ros_setup:/home/geovani/Ne2BU/src/install/micro_ros_agent:/home/geovani/Ne2BU/src/install/main:/opt/ros/humble LD_LIBRARY_PATH=/home/geovani/Ne2BU/src/install/micro_ros_msgs/lib:/home/geovani/Ne2BU/src/install/micro_ros_agent/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/geovani/Ne2BU/src/build/micro_ros_agent[0m
+[1.506s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/geovani/Ne2BU/src/install/micro_ros_agent' for CMake config files
+[1.511s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('micro_ros_agent', 'cmake_prefix_path')
+[1.512s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/geovani/Ne2BU/src/install/micro_ros_agent/share/micro_ros_agent/hook/cmake_prefix_path.ps1'
+[1.512s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/geovani/Ne2BU/src/install/micro_ros_agent/share/micro_ros_agent/hook/cmake_prefix_path.dsv'
+[1.513s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/geovani/Ne2BU/src/install/micro_ros_agent/share/micro_ros_agent/hook/cmake_prefix_path.sh'
+[1.514s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/geovani/Ne2BU/src/install/micro_ros_agent/lib'
+[1.514s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('micro_ros_agent', 'ld_library_path_lib')
+[1.514s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/geovani/Ne2BU/src/install/micro_ros_agent/share/micro_ros_agent/hook/ld_library_path_lib.ps1'
+[1.515s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/geovani/Ne2BU/src/install/micro_ros_agent/share/micro_ros_agent/hook/ld_library_path_lib.dsv'
+[1.515s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/geovani/Ne2BU/src/install/micro_ros_agent/share/micro_ros_agent/hook/ld_library_path_lib.sh'
+[1.515s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/geovani/Ne2BU/src/install/micro_ros_agent/bin'
+[1.516s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/geovani/Ne2BU/src/install/micro_ros_agent/lib/pkgconfig/micro_ros_agent.pc'
+[1.516s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/geovani/Ne2BU/src/install/micro_ros_agent/lib/python3.10/site-packages'
+[1.516s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/geovani/Ne2BU/src/install/micro_ros_agent/bin'
+[1.517s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/geovani/Ne2BU/src/install/micro_ros_agent/share/micro_ros_agent/package.ps1'
+[1.518s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/geovani/Ne2BU/src/install/micro_ros_agent/share/micro_ros_agent/package.dsv'
+[1.518s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/geovani/Ne2BU/src/install/micro_ros_agent/share/micro_ros_agent/package.sh'
+[1.519s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/geovani/Ne2BU/src/install/micro_ros_agent/share/micro_ros_agent/package.bash'
+[1.519s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/geovani/Ne2BU/src/install/micro_ros_agent/share/micro_ros_agent/package.zsh'
+[1.520s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/geovani/Ne2BU/src/install/micro_ros_agent/share/colcon-core/packages/micro_ros_agent)
+[1.520s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(micro_ros_agent)
+[1.521s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/geovani/Ne2BU/src/install/micro_ros_agent' for CMake module files
+[1.521s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/geovani/Ne2BU/src/install/micro_ros_agent' for CMake config files
+[1.522s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('micro_ros_agent', 'cmake_prefix_path')
+[1.523s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/geovani/Ne2BU/src/install/micro_ros_agent/share/micro_ros_agent/hook/cmake_prefix_path.ps1'
+[1.523s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/geovani/Ne2BU/src/install/micro_ros_agent/share/micro_ros_agent/hook/cmake_prefix_path.dsv'
+[1.524s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/geovani/Ne2BU/src/install/micro_ros_agent/share/micro_ros_agent/hook/cmake_prefix_path.sh'
+[1.524s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/geovani/Ne2BU/src/install/micro_ros_agent/lib'
+[1.524s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('micro_ros_agent', 'ld_library_path_lib')
+[1.525s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/geovani/Ne2BU/src/install/micro_ros_agent/share/micro_ros_agent/hook/ld_library_path_lib.ps1'
+[1.525s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/geovani/Ne2BU/src/install/micro_ros_agent/share/micro_ros_agent/hook/ld_library_path_lib.dsv'
+[1.526s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/geovani/Ne2BU/src/install/micro_ros_agent/share/micro_ros_agent/hook/ld_library_path_lib.sh'
+[1.526s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/geovani/Ne2BU/src/install/micro_ros_agent/bin'
+[1.527s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/geovani/Ne2BU/src/install/micro_ros_agent/lib/pkgconfig/micro_ros_agent.pc'
+[1.527s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/geovani/Ne2BU/src/install/micro_ros_agent/lib/python3.10/site-packages'
+[1.527s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/geovani/Ne2BU/src/install/micro_ros_agent/bin'
+[1.528s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/geovani/Ne2BU/src/install/micro_ros_agent/share/micro_ros_agent/package.ps1'
+[1.528s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/geovani/Ne2BU/src/install/micro_ros_agent/share/micro_ros_agent/package.dsv'
+[1.529s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/geovani/Ne2BU/src/install/micro_ros_agent/share/micro_ros_agent/package.sh'
+[1.530s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/geovani/Ne2BU/src/install/micro_ros_agent/share/micro_ros_agent/package.bash'
+[1.530s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/geovani/Ne2BU/src/install/micro_ros_agent/share/micro_ros_agent/package.zsh'
+[1.531s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/geovani/Ne2BU/src/install/micro_ros_agent/share/colcon-core/packages/micro_ros_agent)
+[1.797s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/geovani/Ne2BU/src/main': PYTHONPATH=/home/geovani/Ne2BU/src/build/main/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/geovani/Ne2BU/src/install/main/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/main build --build-base /home/geovani/Ne2BU/src/build/main/build install --record /home/geovani/Ne2BU/src/build/main/install.log --single-version-externally-managed install_data[0m
+[2.190s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/geovani/Ne2BU/src/install/main' for CMake module files
+[2.191s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/geovani/Ne2BU/src/main' returned '0': PYTHONPATH=/home/geovani/Ne2BU/src/build/main/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/geovani/Ne2BU/src/install/main/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/main build --build-base /home/geovani/Ne2BU/src/build/main/build install --record /home/geovani/Ne2BU/src/build/main/install.log --single-version-externally-managed install_data[0m
+[2.191s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/geovani/Ne2BU/src/install/main' for CMake config files
+[2.193s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/geovani/Ne2BU/src/install/main/lib'
+[2.193s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/geovani/Ne2BU/src/install/main/bin'
+[2.193s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/geovani/Ne2BU/src/install/main/lib/pkgconfig/main.pc'
+[2.193s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/geovani/Ne2BU/src/install/main/lib/python3.10/site-packages'
+[2.194s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('main', 'pythonpath')
+[2.194s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/geovani/Ne2BU/src/install/main/share/main/hook/pythonpath.ps1'
+[2.195s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/geovani/Ne2BU/src/install/main/share/main/hook/pythonpath.dsv'
+[2.195s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/geovani/Ne2BU/src/install/main/share/main/hook/pythonpath.sh'
+[2.196s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/geovani/Ne2BU/src/install/main/bin'
+[2.196s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(main)
+[2.197s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/geovani/Ne2BU/src/install/main/share/main/package.ps1'
+[2.197s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/geovani/Ne2BU/src/install/main/share/main/package.dsv'
+[2.198s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/geovani/Ne2BU/src/install/main/share/main/package.sh'
+[2.198s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/geovani/Ne2BU/src/install/main/share/main/package.bash'
+[2.199s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/geovani/Ne2BU/src/install/main/share/main/package.zsh'
+[2.199s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/geovani/Ne2BU/src/install/main/share/colcon-core/packages/main)
+[2.200s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mclosing loop[0m
+[2.200s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mloop closed[0m
+[2.200s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mrun_until_complete finished with '0'[0m
+[2.200s] [34mcolcon.colcon_core.event_reactor[0m [1;30mDEBUG[0m [32mjoining thread[0m
+[2.208s] [34mcolcon.colcon_core.plugin_system[0m [1;30mINFO[0m Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[2.209s] [34mcolcon.colcon_core.plugin_system[0m [1;30mINFO[0m Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[2.209s] [34mcolcon.colcon_notification.desktop_notification[0m [1;30mINFO[0m Sending desktop notification using 'notify2'
+[2.222s] [34mcolcon.colcon_core.event_reactor[0m [1;30mDEBUG[0m [32mjoined thread[0m
+[2.222s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/home/geovani/Ne2BU/src/install/local_setup.ps1'
+[2.224s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix util module '/home/geovani/Ne2BU/src/install/_local_setup_util_ps1.py'
+[2.226s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/home/geovani/Ne2BU/src/install/setup.ps1'
+[2.227s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/home/geovani/Ne2BU/src/install/local_setup.sh'
+[2.228s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix util module '/home/geovani/Ne2BU/src/install/_local_setup_util_sh.py'
+[2.229s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/home/geovani/Ne2BU/src/install/setup.sh'
+[2.230s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/home/geovani/Ne2BU/src/install/local_setup.bash'
+[2.231s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/home/geovani/Ne2BU/src/install/setup.bash'
+[2.233s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/home/geovani/Ne2BU/src/install/local_setup.zsh'
+[2.234s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/home/geovani/Ne2BU/src/install/setup.zsh'

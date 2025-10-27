@@ -1,0 +1,112 @@
+{
+    "session_start": "2025-10-20T12:21:22.696830",
+    "session_end": "2025-10-20T12:25:42.973097",
+    "total_messages": 21,
+    "conversation": [
+        {
+            "role": "user",
+            "text": "como estas? asi ya es",
+            "timestamp": "2025-10-20T12:21:22.696830"
+        },
+        {
+            "role": "nebu",
+            "text": "Estoy bien, gracias por preguntar. Me alegra que hayas iniciado nuestro encuentro. ¿Qué te trae aquí hoy? ¿Hay algo en particular que te preocupe o te gustaría hablar sobre?",
+            "timestamp": "2025-10-20T12:21:24.202192"
+        },
+        {
+            "role": "user",
+            "text": "¿Cómo te sientes?",
+            "timestamp": "2025-10-20T12:21:45.660519"
+        },
+        {
+            "role": "nebu",
+            "text": "Soy un terapeuta neutral, no tengo sentimientos propios, pero estoy aquí para escucharte y apoyarte en tu proceso. Mi objetivo es ayudarte a encontrar soluciones y superar los desafíos que estés enfrentando. ¿Qué crees que te gustaría hablar sobre?",
+            "timestamp": "2025-10-20T12:21:47.521543"
+        },
+        {
+            "role": "nebu",
+            "text": "Disculpa, no te he entendido. ¿Podrías repetirlo?",
+            "timestamp": "2025-10-20T12:22:10.941637"
+        },
+        {
+            "role": "user",
+            "text": "Me preocupa sobre el...",
+            "timestamp": "2025-10-20T12:22:19.154688"
+        },
+        {
+            "role": "nebu",
+            "text": "¿Sobre qué, exactamente? Puedo escucharte con atención y apoyo. No juzgo, solo estoy aquí para ayudarte a encontrar sentido y soluciones. ¿Qué es lo que te preocupa en particular?",
+            "timestamp": "2025-10-20T12:22:20.703085"
+        },
+        {
+            "role": "user",
+            "text": "sobre los exámenes de matemática",
+            "timestamp": "2025-10-20T12:22:39.641900"
+        },
+        {
+            "role": "nebu",
+            "text": "Los exámenes de matemática pueden ser estresantes, especialmente si no tienes una buena preparación o se sienten importantes para ti. ¿Qué es lo que te preocupa en particular sobre estos exámenes? ¿Te sientes sobrecargado con la carga de estudio o más bien tienes dudas sobre cómo abordar ciertos conceptos?",
+            "timestamp": "2025-10-20T12:22:41.997657"
+        },
+        {
+            "role": "user",
+            "text": "sobre no pasarlo",
+            "timestamp": "2025-10-20T12:23:10.518595"
+        },
+        {
+            "role": "nebu",
+            "text": "No pasar el examen puede ser muy desanimador. Es normal sentirse preocupado y nervioso en situaciones como esta. ¿Qué crees que podría pasar si no pasa el examen? ¿Te sientes como si todo se viniera abajo o más bien te sientes como si no supieras qué hacer?",
+            "timestamp": "2025-10-20T12:23:12.564540"
+        },
+        {
+            "role": "user",
+            "text": "como se nos pide que hacer",
+            "timestamp": "2025-10-20T12:23:36.090653"
+        },
+        {
+            "role": "nebu",
+            "text": "¿Hay algún requisito específico o presión externa que te hace sentir que debes pasar el examen? ¿Te sientes obligado a obtener una determinada nota o tienes miedo de la reacción de alguien si no lo pasas? Quiero entender mejor qué te está preocupando y cómo puedo ayudarte.",
+            "timestamp": "2025-10-20T12:23:38.123097"
+        },
+        {
+            "role": "user",
+            "text": "¿Como refiero mis papá?",
+            "timestamp": "2025-10-20T12:24:08.757487"
+        },
+        {
+            "role": "nebu",
+            "text": "Tienes un padre que tiene expectativas sobre tus resultados académicos, ¿cierto? Es natural sentirse presionado por los padres, especialmente si crees que no viven hasta la satisfacción de sus expectativas. ¿Cómo te sientes cuando piensas en hablar con ellos sobre tu inquietud? ¿Te sientes como si no supieras qué decir o como si estuvieran esperando una respuesta específica?",
+            "timestamp": "2025-10-20T12:24:11.617429"
+        },
+        {
+            "role": "user",
+            "text": "como se me espera que hay de cita",
+            "timestamp": "2025-10-20T12:24:43.574135"
+        },
+        {
+            "role": "nebu",
+            "text": "Entiendo. Se te está expecting a cita para hablar sobre tus resultados académicos y sienten que tienes un papel importante que jugar en tu vida. ¿Te sientes como si la presión fuera demasiado grande o como si no supieras cómo cumplir con sus expectativas? Quiero ayudarte a encontrar una manera de abordar esta situación que te haga sentir más seguro y confiado.",
+            "timestamp": "2025-10-20T12:24:46.379335"
+        },
+        {
+            "role": "user",
+            "text": "¡Suscríbete!",
+            "timestamp": "2025-10-20T12:25:16.024854"
+        },
+        {
+            "role": "nebu",
+            "text": "Jajaja, ¡no necesitas suscribirte! Soy aquí para escucharte y ayudarte en el proceso. No tienes que hacer nada más allá de hablar conmigo y compartir tus sentimientos y pensamientos. ¿Quieres seguir hablando sobre cómo manejar esta situación con tus papás?",
+            "timestamp": "2025-10-20T12:25:18.253260"
+        },
+        {
+            "role": "user",
+            "text": "Adiós",
+            "timestamp": "2025-10-20T12:25:42.971905"
+        },
+        {
+            "role": "nebu",
+            "text": "¡Hasta luego! Si necesitas algo más, aquí estaré.",
+            "timestamp": "2025-10-20T12:25:42.973097"
+        }
+    ]
+}

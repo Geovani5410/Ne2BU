@@ -1,0 +1,37 @@
+{
+    "session_start": "2025-10-20T12:39:02.993725",
+    "session_end": "2025-10-20T12:39:38.514124",
+    "total_messages": 6,
+    "conversation": [
+        {
+            "role": "user",
+            "text": "Te voy a presentar a Cristian",
+            "timestamp": "2025-10-20T12:39:02.993725"
+        },
+        {
+            "role": "nebu",
+            "text": "¡Hola Cristian! Me alegra conocerte. ¿Qué te trae aquí hoy? ¿Hay algo en particular que estés experimentando o desafiando que te gustaría trabajar a través de nuestra conversación?",
+            "timestamp": "2025-10-20T12:39:04.406449"
+        },
+        {
+            "role": "user",
+            "text": "¡Suscríbete!",
+            "timestamp": "2025-10-20T12:39:23.109919"
+        },
+        {
+            "role": "nebu",
+            "text": "¡Genial! Estoy aquí para escucharte y apoyarte. ¿Qué es lo que te preocupa o te molesta en este momento? ¿Hay algo que te gustaría compartir o resolver?",
+            "timestamp": "2025-10-20T12:39:24.495720"
+        },
+        {
+            "role": "user",
+            "text": "¡Adiós!",
+            "timestamp": "2025-10-20T12:39:38.510868"
+        },
+        {
+            "role": "nebu",
+            "text": "¡Hasta luego! Si necesitas algo más, aquí estaré.",
+            "timestamp": "2025-10-20T12:39:38.514124"
+        }
+    ]
+}

@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "micro_ros_msgs__py",
+		"source" : "/home/geovani/Ne2BU/src/build/micro_ros_msgs/micro_ros_msgs__py"
+	}
+}

@@ -1,0 +1,12 @@
+[console_scripts]
+activate = main.activate:main
+bridge_node = main.bridge_node:main
+dashboard = main.dashboard:main
+emotion = main.emotion:main
+history_node = main.history_node:main
+llm_node = main.llm_node:main
+prueba = main.prueba:main
+tts_node = main.tts_node:main
+voz_node = main.voz_node:main
+wake_word = main.wake_word:main
+

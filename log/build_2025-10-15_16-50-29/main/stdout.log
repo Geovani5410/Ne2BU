@@ -1,0 +1,28 @@
+running egg_info
+writing ../build/main/main.egg-info/PKG-INFO
+writing dependency_links to ../build/main/main.egg-info/dependency_links.txt
+writing entry points to ../build/main/main.egg-info/entry_points.txt
+writing requirements to ../build/main/main.egg-info/requires.txt
+writing top-level names to ../build/main/main.egg-info/top_level.txt
+reading manifest file '../build/main/main.egg-info/SOURCES.txt'
+writing manifest file '../build/main/main.egg-info/SOURCES.txt'
+running build
+running build_py
+copying main/activate.py -> /home/geovani/Ne2BU/src/build/main/build/lib/main
+running install
+running install_lib
+copying /home/geovani/Ne2BU/src/build/main/build/lib/main/activate.py -> /home/geovani/Ne2BU/src/install/main/lib/python3.10/site-packages/main
+byte-compiling /home/geovani/Ne2BU/src/install/main/lib/python3.10/site-packages/main/activate.py to activate.cpython-310.pyc
+running install_data
+running install_egg_info
+removing '/home/geovani/Ne2BU/src/install/main/lib/python3.10/site-packages/main-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../build/main/main.egg-info to /home/geovani/Ne2BU/src/install/main/lib/python3.10/site-packages/main-0.0.0-py3.10.egg-info
+running install_scripts
+Installing activate script to /home/geovani/Ne2BU/src/install/main/lib/main
+Installing history_node script to /home/geovani/Ne2BU/src/install/main/lib/main
+Installing llm_node script to /home/geovani/Ne2BU/src/install/main/lib/main
+Installing prueba script to /home/geovani/Ne2BU/src/install/main/lib/main
+Installing tts_node script to /home/geovani/Ne2BU/src/install/main/lib/main
+Installing voz_node script to /home/geovani/Ne2BU/src/install/main/lib/main
+Installing wake_word script to /home/geovani/Ne2BU/src/install/main/lib/main
+writing list of installed files to '/home/geovani/Ne2BU/src/build/main/install.log'

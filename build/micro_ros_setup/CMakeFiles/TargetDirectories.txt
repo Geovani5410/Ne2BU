@@ -1,0 +1,9 @@
+/home/geovani/Ne2BU/src/build/micro_ros_setup/CMakeFiles/uninstall.dir
+/home/geovani/Ne2BU/src/build/micro_ros_setup/CMakeFiles/micro_ros_setup_uninstall.dir
+/home/geovani/Ne2BU/src/build/micro_ros_setup/CMakeFiles/test.dir
+/home/geovani/Ne2BU/src/build/micro_ros_setup/CMakeFiles/edit_cache.dir
+/home/geovani/Ne2BU/src/build/micro_ros_setup/CMakeFiles/rebuild_cache.dir
+/home/geovani/Ne2BU/src/build/micro_ros_setup/CMakeFiles/list_install_components.dir
+/home/geovani/Ne2BU/src/build/micro_ros_setup/CMakeFiles/install.dir
+/home/geovani/Ne2BU/src/build/micro_ros_setup/CMakeFiles/install/local.dir
+/home/geovani/Ne2BU/src/build/micro_ros_setup/CMakeFiles/install/strip.dir

@@ -1,0 +1,77 @@
+{
+    "session_start": "2025-10-20T12:26:39.198236",
+    "session_end": "2025-10-20T12:29:14.796551",
+    "total_messages": 14,
+    "conversation": [
+        {
+            "role": "user",
+            "text": "Hola",
+            "timestamp": "2025-10-20T12:26:39.198236"
+        },
+        {
+            "role": "nebu",
+            "text": "Bienvenido/a. Me alegra poder ayudarte a explorar tus sentimientos y pensamientos. ¿Qué te llevó a buscar terapia en este momento?",
+            "timestamp": "2025-10-20T12:26:40.271636"
+        },
+        {
+            "role": "user",
+            "text": "Aoooo",
+            "timestamp": "2025-10-20T12:26:54.556529"
+        },
+        {
+            "role": "nebu",
+            "text": "Entiendo que puede ser un poco difícil hablar sobre esto. Pero estoy aquí para escucharte sin juzgamiento. ¿Podrías decirme un poco más sobre lo que te hace sentir \"Aaaaao\"? ¿Hay algo específico que esté pasando en tu vida o hay algo que te esté preocupando?",
+            "timestamp": "2025-10-20T12:26:56.530793"
+        },
+        {
+            "role": "user",
+            "text": "No nada, no, si quería saludar.",
+            "timestamp": "2025-10-20T12:27:28.878798"
+        },
+        {
+            "role": "nebu",
+            "text": "Disculpa la confusión entonces! Me alegra haber podido saludarte de alguna manera. ¿Quieres hablar un poco sobre cómo has estado últimamente o hay algo en particular que te gustaría compartir? Estoy aquí para escucharte y apoyarte si es necesario.",
+            "timestamp": "2025-10-20T12:27:30.695684"
+        },
+        {
+            "role": "user",
+            "text": "torne",
+            "timestamp": "2025-10-20T12:27:57.506479"
+        },
+        {
+            "role": "nebu",
+            "text": "¿Torner a qué? ¿A un lugar, a una situación o a alguien? Quiero entender mejor lo que te preocupa.",
+            "timestamp": "2025-10-20T12:27:58.651030"
+        },
+        {
+            "role": "user",
+            "text": "No, nada, no he estado feliz.",
+            "timestamp": "2025-10-20T12:28:12.887527"
+        },
+        {
+            "role": "nebu",
+            "text": "Entiendo que puede ser difícil sentirte feliz en momentos difíciles. ¿Quieres hablar un poco sobre qué te ha estado afectando emocionalmente? A veces, compartir nuestros sentimientos con alguien que nos escuche sin juzgar puede ser un gran peso alivio. Estoy aquí para ti.",
+            "timestamp": "2025-10-20T12:28:14.777578"
+        },
+        {
+            "role": "user",
+            "text": "Gracias",
+            "timestamp": "2025-10-20T12:28:48.819563"
+        },
+        {
+            "role": "nebu",
+            "text": "De nada. Me alegra haber podido estar aquí para ti en este momento. Recuerda que no estás solo/a, y siempre hay alguien dispuesto a escucharte y ayudarte. Si necesitas algo o simplemente quieres hablar un poco más, estoy aquí para ti.",
+            "timestamp": "2025-10-20T12:28:50.628186"
+        },
+        {
+            "role": "user",
+            "text": "Gracias, bye.",
+            "timestamp": "2025-10-20T12:29:14.795133"
+        },
+        {
+            "role": "nebu",
+            "text": "¡Hasta luego! Si necesitas algo más, aquí estaré.",
+            "timestamp": "2025-10-20T12:29:14.796551"
+        }
+    ]
+}

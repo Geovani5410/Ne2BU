@@ -1,0 +1,31 @@
+[0.471s] Invoking command in '/home/geovani/Ne2BU/src/main': PYTHONPATH=/home/geovani/Ne2BU/src/build/main/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/geovani/Ne2BU/src/install/main/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/main build --build-base /home/geovani/Ne2BU/src/build/main/build install --record /home/geovani/Ne2BU/src/build/main/install.log --single-version-externally-managed install_data
+[0.639s] running egg_info
+[0.640s] writing ../build/main/main.egg-info/PKG-INFO
+[0.640s] writing dependency_links to ../build/main/main.egg-info/dependency_links.txt
+[0.640s] writing entry points to ../build/main/main.egg-info/entry_points.txt
+[0.640s] writing requirements to ../build/main/main.egg-info/requires.txt
+[0.640s] writing top-level names to ../build/main/main.egg-info/top_level.txt
+[0.641s] reading manifest file '../build/main/main.egg-info/SOURCES.txt'
+[0.642s] writing manifest file '../build/main/main.egg-info/SOURCES.txt'
+[0.642s] running build
+[0.642s] running build_py
+[0.642s] copying main/llm_node.py -> /home/geovani/Ne2BU/src/build/main/build/lib/main
+[0.642s] running install
+[0.642s] running install_lib
+[0.643s] copying /home/geovani/Ne2BU/src/build/main/build/lib/main/llm_node.py -> /home/geovani/Ne2BU/src/install/main/lib/python3.10/site-packages/main
+[0.643s] byte-compiling /home/geovani/Ne2BU/src/install/main/lib/python3.10/site-packages/main/llm_node.py to llm_node.cpython-310.pyc
+[0.644s] running install_data
+[0.644s] running install_egg_info
+[0.646s] removing '/home/geovani/Ne2BU/src/install/main/lib/python3.10/site-packages/main-0.0.0-py3.10.egg-info' (and everything under it)
+[0.646s] Copying ../build/main/main.egg-info to /home/geovani/Ne2BU/src/install/main/lib/python3.10/site-packages/main-0.0.0-py3.10.egg-info
+[0.646s] running install_scripts
+[0.659s] Installing activate script to /home/geovani/Ne2BU/src/install/main/lib/main
+[0.659s] Installing bridge_node script to /home/geovani/Ne2BU/src/install/main/lib/main
+[0.659s] Installing history_node script to /home/geovani/Ne2BU/src/install/main/lib/main
+[0.659s] Installing llm_node script to /home/geovani/Ne2BU/src/install/main/lib/main
+[0.659s] Installing prueba script to /home/geovani/Ne2BU/src/install/main/lib/main
+[0.659s] Installing tts_node script to /home/geovani/Ne2BU/src/install/main/lib/main
+[0.659s] Installing voz_node script to /home/geovani/Ne2BU/src/install/main/lib/main
+[0.659s] Installing wake_word script to /home/geovani/Ne2BU/src/install/main/lib/main
+[0.659s] writing list of installed files to '/home/geovani/Ne2BU/src/build/main/install.log'
+[0.673s] Invoked command in '/home/geovani/Ne2BU/src/main' returned '0': PYTHONPATH=/home/geovani/Ne2BU/src/build/main/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/geovani/Ne2BU/src/install/main/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/main build --build-base /home/geovani/Ne2BU/src/build/main/build install --record /home/geovani/Ne2BU/src/build/main/install.log --single-version-externally-managed install_data

@@ -1,0 +1,13 @@
+# Target labels
+ xrceagent
+# Source files and their labels
+/home/geovani/Ne2BU/src/build/micro_ros_agent/CMakeFiles/xrceagent
+/home/geovani/Ne2BU/src/build/micro_ros_agent/CMakeFiles/xrceagent.rule
+/home/geovani/Ne2BU/src/build/micro_ros_agent/CMakeFiles/xrceagent-complete.rule
+/home/geovani/Ne2BU/src/build/micro_ros_agent/agent/src/xrceagent-stamp/xrceagent-build.rule
+/home/geovani/Ne2BU/src/build/micro_ros_agent/agent/src/xrceagent-stamp/xrceagent-configure.rule
+/home/geovani/Ne2BU/src/build/micro_ros_agent/agent/src/xrceagent-stamp/xrceagent-download.rule
+/home/geovani/Ne2BU/src/build/micro_ros_agent/agent/src/xrceagent-stamp/xrceagent-install.rule
+/home/geovani/Ne2BU/src/build/micro_ros_agent/agent/src/xrceagent-stamp/xrceagent-mkdir.rule
+/home/geovani/Ne2BU/src/build/micro_ros_agent/agent/src/xrceagent-stamp/xrceagent-patch.rule
+/home/geovani/Ne2BU/src/build/micro_ros_agent/agent/src/xrceagent-stamp/xrceagent-update.rule
